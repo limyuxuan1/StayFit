@@ -78,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             // Last resort: show the default widget
             console.log('💡 Showing helpful message...');
-            alert('💬 Click the chat bubble icon in the bottom-right corner to start chatting with the AI Coach!');
         }, 500);
     }
 

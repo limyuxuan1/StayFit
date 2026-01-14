@@ -40,7 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Fallback: just let user know
             console.log('Chat widget button not found. Widget may still be loading.');
-            alert('💬 Opening chat... If it doesn\'t appear, look for the chat icon in the bottom right corner!');
         }
     }
 
