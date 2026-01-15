@@ -112,9 +112,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const cardTitle = this.closest('.type-card').querySelector('h3').textContent;
             console.log(`Type button clicked: ${cardTitle}`);
             
-            // Visual feedback
-            this.textContent = '💬 Opening Chat...';
-            this.style.opacity = '0.7';
             
             openN8NChat();
             
